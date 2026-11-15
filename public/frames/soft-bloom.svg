@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 1580" width="600" height="1580">
+  <defs>
+    <mask id="cut" maskUnits="userSpaceOnUse" x="0" y="0" width="600" height="1580">
+      <rect width="600" height="1580" fill="#fff"/>
+      <rect x="40" y="100" width="520" height="400" rx="26" fill="#000"/>
+      <rect x="40" y="524" width="520" height="400" rx="26" fill="#000"/>
+      <rect x="40" y="948" width="520" height="400" rx="26" fill="#000"/>
+    </mask>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffeaf1"/>
+      <stop offset="1" stop-color="#ffd3e2"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="1580" fill="url(#bg)" mask="url(#cut)"/>
+  <rect x="12" y="12" width="576" height="1556" rx="34" fill="none" stroke="#a24460" stroke-width="3"/>
+  <g fill="#f7aec5" opacity=".85">
+    <circle cx="58" cy="56" r="15"/><circle cx="88" cy="38" r="9"/><circle cx="102" cy="66" r="12"/>
+    <circle cx="542" cy="56" r="15"/><circle cx="512" cy="38" r="9"/><circle cx="498" cy="66" r="12"/>
+    <circle cx="70" cy="1460" r="20"/><circle cx="108" cy="1490" r="11"/><circle cx="530" cy="1460" r="20"/><circle cx="492" cy="1490" r="11"/>
+  </g>
+  <text x="300" y="66" text-anchor="middle" font-family="Georgia, serif" font-size="32" letter-spacing="8" fill="#8c3550">SNAPBOOTH</text>
+  <rect x="30" y="90" width="540" height="420" rx="34" fill="none" stroke="#fff" stroke-width="8"/>
+  <rect x="30" y="514" width="540" height="420" rx="34" fill="none" stroke="#fff" stroke-width="8"/>
+  <rect x="30" y="938" width="540" height="420" rx="34" fill="none" stroke="#fff" stroke-width="8"/>
+  <text x="300" y="1424" text-anchor="middle" font-family="Georgia, serif" font-size="26" fill="#8c3550">soft bloom</text>
+  <text x="300" y="1472" text-anchor="middle" font-family="Verdana, sans-serif" font-size="14" letter-spacing="4" fill="#8c3550">YOU LOOK LOVELY TODAY</text>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 1900" width="600" height="1900">
+  <defs>
+    <mask id="cut" maskUnits="userSpaceOnUse" x="0" y="0" width="600" height="1900">
+      <rect width="600" height="1900" fill="#fff"/>
+      <rect x="40" y="100" width="520" height="380" rx="22" fill="#000"/>
+      <rect x="40" y="504" width="520" height="380" rx="22" fill="#000"/>
+      <rect x="40" y="908" width="520" height="380" rx="22" fill="#000"/>
+      <rect x="40" y="1312" width="520" height="380" rx="22" fill="#000"/>
+    </mask>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffe9f1"/>
+      <stop offset="1" stop-color="#f4b4ca"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="1900" fill="url(#shine)" mask="url(#cut)"/>
+  <rect x="12" y="12" width="576" height="1876" rx="34" fill="none" stroke="#7a2d42" stroke-width="4"/>
+  <rect x="30" y="90" width="540" height="400" rx="30" fill="none" stroke="#fff" stroke-width="8"/>
+  <rect x="30" y="494" width="540" height="400" rx="30" fill="none" stroke="#fff" stroke-width="8"/>
+  <rect x="30" y="898" width="540" height="400" rx="30" fill="none" stroke="#fff" stroke-width="8"/>
+  <rect x="30" y="1302" width="540" height="400" rx="30" fill="none" stroke="#fff" stroke-width="8"/>
+  <text x="300" y="66" text-anchor="middle" font-family="Georgia, serif" font-size="34" letter-spacing="9" fill="#7a2d42">SNAPBOOTH</text>
+  <g fill="#7a2d42">
+    <path d="M300 1732c-10-10-30-24-30-40 0-11 8-19 19-19 7 0 12 4 16 10 4-6 9-10 16-10 11 0 19 8 19 19 0 16-20 30-40 40z"/>
+    <path d="M250 1764c-6-6-18-14-18-24 0-7 5-11 11-11 4 0 7 2 9 6 2-4 5-6 9-6 6 0 11 4 11 11 0 10-12 18-22 24z" opacity=".65"/>
+    <path d="M350 1764c-6-6-18-14-18-24 0-7 5-11 11-11 4 0 7 2 9 6 2-4 5-6 9-6 6 0 11 4 11 11 0 10-12 18-22 24z" opacity=".65"/>
+  </g>
+  <text x="300" y="1832" text-anchor="middle" font-family="Verdana, sans-serif" font-size="15" letter-spacing="4" fill="#7a2d42">A LITTLE MOMENT, FOREVER</text>
+</svg>

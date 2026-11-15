@@ -1,0 +1,13 @@
+.env*
+!.env.example
+node_modules/
+.next/
+out/
+dist/
+coverage/
+*.log
+*.tsbuildinfo
+.DS_Store
+test-artifacts/
+public/uploads/
+storage/uploads/

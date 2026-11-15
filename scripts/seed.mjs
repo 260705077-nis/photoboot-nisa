@@ -37,6 +37,7 @@ const frames = [
   ["Maroon Elegance", "maroon-elegance", "Maroon elegan dengan aksen emas.", "/frames/maroon-elegance.svg", 4, 1, 2],
   ["Soft Bloom", "soft-bloom", "Bunga pastel untuk tiga momen favorit.", "/frames/soft-bloom.svg", 3, 1, 3],
   ["Retro Dots", "retro-dots", "Pola titik retro yang playful.", "/frames/retro-dots.svg", 3, 1, 4],
+  ["Vintage Film", "vintage-film", "Strip film klasik dengan sprocket holes dan caption vintage.", "/frames/vintage-film.svg", 3, 1, 5],
 ];
 
 const filters = [

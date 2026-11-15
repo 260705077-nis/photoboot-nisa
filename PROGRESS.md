@@ -14,6 +14,16 @@ Selesai dan terverifikasi pada 15 November 2026.
 - Loading, empty, dan error state; validasi inline; konfirmasi hapus.
 - Upload gambar disimpan di `storage/uploads`, disajikan lewat route `app/uploads/[...path]/route.ts`, dan file fisik ikut dihapus saat data dihapus.
 
+## Template Frame
+
+Lima template frame bawaan tersedia di `public/frames/` dan didaftarkan lewat `scripts/seed.mjs`:
+
+- Pink Classic (4 slot)
+- Maroon Elegance (4 slot)
+- Soft Bloom (3 slot)
+- Retro Dots (3 slot)
+- Vintage Film (3 slot) — strip film hitam dengan sprocket holes, border putih, area caption vintage `JOHN & JADE` dan `06-08-2024`, hasil strip **600×1580**.
+
 ## Stack
 
 - Next.js 16 App Router + React 19 + TypeScript
@@ -96,6 +106,8 @@ Screenshot dan artifact test tersimpan di `test-artifacts/` (diabaikan Git). Fil
 - Data test API dan E2E kembali **0 baris** setelah cleanup.
 - File upload test kembali **0 file** setelah cleanup; URL file hasil cleanup mengembalikan **HTTP 404**.
 - Seed database utuh setelah cleanup: users 2, frames 4, filters 4, photo_sessions 1, photos 4, photo_strips 1, downloads 1.
+- Verifikasi frame Vintage Film: aset **HTTP 200 image/svg+xml 6313 byte**, preview **600×1580**, 3 foto, hasil strip **600×1580**, tanpa page error — **4 PASS, 0 FAIL**.
+  - Screenshot: `test-artifacts/ui/vintage-film-setup.png` dan `test-artifacts/ui/vintage-film-result.png`.
 
 Screenshot utama ada di:
 
